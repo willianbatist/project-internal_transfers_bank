@@ -16,7 +16,7 @@ Accounts.init({
 }, {
   underscored: true,
   sequelize: db,
-  modelName: 'Accounts',
+  modelName: 'accounts',
   timestamps: false,
 });
 
