@@ -30,7 +30,8 @@ module.exports = {
         },
         createdAt: {
           type: Sequelize.DATE,
-          defaultValue: false,
+          defaultValue: true,
+          autoIncrement: true,
         },
     });
   },
