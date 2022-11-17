@@ -19,7 +19,6 @@ Transactions.init({
   debitedAccountId: DataTypes.INTEGER,
   creditedAccountId: DataTypes.INTEGER,
   value: DataTypes.STRING,
-  createdAt: DataTypes.DATE,
 }, {
   underscored: true,
   sequelize: db,
